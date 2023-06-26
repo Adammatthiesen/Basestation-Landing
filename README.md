@@ -56,7 +56,7 @@ npm i && npm start
 
 ## Deploy
 
-Astro has [an in-depth guide](https://docs.astro.build/en/guides/deploy/) on how to deploy an Astro project to each service.
+Astro has [an in-depth guide](https://docs.astro.build/estackblitz astro.build cloudflarestackblitz astro.build cloudflaren/guides/deploy/) on how to deploy an Astro project to each service.
 
 ## Sponsor
 
