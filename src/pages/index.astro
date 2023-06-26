@@ -1,0 +1,33 @@
+---
+import Layout from '../layouts/Page.astro'
+import Container from '../components/Container.astro';
+import SignupForm from '../components/SignupForm.astro';
+import Login from '../components/Login.astro';
+
+const seo = {
+  title: 'Basestation',
+  description: 'Private Server',
+}
+---
+
+<style>
+  .hero__article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    text-align: center;
+  }
+</style>
+
+<Layout seo={seo}>
+  <Container narrow>
+    <article class="hero__article">
+      <h1 class="fade-in">Basestation</h1>
+      <p class="fade-in">Please Login to continue!</p>
+      <Login />
+    </article>
+  </Container>
+</Layout>
+
